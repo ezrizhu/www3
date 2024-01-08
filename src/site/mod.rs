@@ -31,7 +31,7 @@ pub fn base(content: Markup, state: SiteState) -> Markup {
                     link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png";
                     link rel="manifest" href="/assets/favicon/site.webmanifest";
 
-                    meta name="theme-color" content="#4ee06d";
+                    meta name="theme-color" content="#0f0f0f";
 
                     meta property="og:type" content="website";
                     meta property="og:title" content=(title);
