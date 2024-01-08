@@ -18,7 +18,7 @@ pub async fn home(State(state): State<Arc<RwLock<SiteState>>>) -> Markup {
             div class="pure-u-1 pure-u-md-2-3 hero-text" {
                 h1 { "EzriCloud (AS206628)" }
                 p { "Not-for-profit IT and Networking project that provides free hosting and BGP upstream to students and open-source projects" };
-                p { "EzriCloud is a brand of BNS Services LLC, run by " a href="https://ezrizhu.com" target="_blank" { "Ezri Zhu." } }
+                p { "EzriCloud is a brand of BNS Services LLC, run by " a href="https://ezrizhu.com" target="_blank" { "Ezri Zhu" } "." }
                 p { "Contact info can be found under our " 
                     a href="https://www.peeringdb.com/net/22700" { "PeeringDB page" }
                     ", or under the nic-hdl EZRI-RIPE and ZHUEZ-ARIN" }
