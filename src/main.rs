@@ -55,6 +55,7 @@ async fn main() {
         .nest_service("/assets", get_service(ServeDir::new("./assets")))
         .route("/health", get(health))
         .route("/", get(site::home::home))
+        .route("/landing", get(site::landing::landing))
         .with_state(state);
 
     axum::Server::bind(&"0.0.0.0:3000".parse().expect("Invalid address"))

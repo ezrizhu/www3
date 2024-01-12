@@ -1,6 +1,7 @@
 use maud::{html, Markup};
 use crate::SiteState;
 pub mod home;
+pub mod landing;
 
 pub fn base(content: Markup, state: SiteState) -> Markup {
     let last_updated = state.last_updated.clone();
