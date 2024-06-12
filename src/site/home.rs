@@ -37,20 +37,17 @@ pub async fn home(State(state): State<Arc<RwLock<SiteState>>>) -> Markup {
         }
         h3 { "Special Thanks" }
         p {
+            a target="_blank" href="https://inferno.co.uk/" { "Inferno Communications" }
+            " for providing RIPE LIR services and colocation."
+            br;
             a target="_blank" href="https://he.net" { "Hurricane Electric" }
             " for providing colocation and transit."
             br;
-            a target="_blank" href="https://www.nycmesh.net/" { "NYCMesh" }
-            " for providing colocation services."
-            br;
-            a target="_blank" href="https://infernocomms.com/" { "Inferno Communications" }
-            " for providing RIPE LIR services and colocation."
-            br;
-            a target="_blank" href="https://as62513.net/" { "AS835 (Xenyth Cloud)" }
-            " for providing ARIN services."
-            br;
             a target="_blank" href="https://www.openfactory.net/" { "OpenFactory" }
             " for providing RIPE LIR services."
+            br;
+            a target="_blank" href="https://www.nycmesh.net/" { "NYCMesh" }
+            " for providing colocation services."
         }
 
         h3 { "Current Status" }
