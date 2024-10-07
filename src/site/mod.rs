@@ -57,12 +57,6 @@ pub fn base(content: Markup, state: SiteState) -> Markup {
                                 a target="_blank" href="https://infernocomms.com" {
                                     img src="/assets/img/badges/infernocomms.png" alt="Inferno Communications";
                                 }
-                                a target="_blank" href="https://glauca.digital/" {
-                                    img src="/assets/img/badges/glauca.gif" alt="Glauca Digital";
-                                }
-                                a target="_blank" href="https://xenyth.net/" {
-                                    img src="/assets/img/badges/xenyth.png" alt="xenyth cloud";
-                                }
                             }
 
                             p {
